@@ -31,13 +31,28 @@ nav {
 }
 
 /* 450px 보다 작을 때 */
-@media (max-width: 450px) {
+@media (max-width: 451px) {
+    .mobile-display {
+        color: blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        margin: 10px;
+    }
+
     h2 {
         font-size: 40px;
     }
 
     .text-size-1 {
-        font-size: 18px;
+        font-size: 19px;
+    }
+
+    .text-size-2 {
+        font-size: 15px;
+    }
+
+    .text-size-3 {
+        font-size: 13px;
     }
 
     .icon {
@@ -72,7 +87,7 @@ nav {
     }
     
     .section1 {
-        height: 40rem;
+        height: 45rem;
         border: 1px solid green;
         border-radius: 1cm;
         background-color: rgba(245, 245, 237, 0.678);
@@ -138,20 +153,32 @@ nav {
     }
     
     footer {
-        height: 50px;
+        height: 40px;
         background-color: #26a030;
         margin-top: 10px;
     }
         
 }
 
-@media (min-width: 540px) {
+@media (min-width: 451px) {
+    .mobile-display {
+        display: none;
+    }
+
     h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .text-size-1 {
         font-size: 27px;
+    }
+
+    .text-size-2 {
+        font-size: 20px;
+    }
+
+    .text-size-3 {
+        font-size: 18px;
     }
 
     .icon {
