@@ -4,8 +4,7 @@
 }
 
 nav {
-    height: 80px;
-    background-color: #00850b;
+    background-color: #26a030;
 }
 
 .navbar-brand {
@@ -31,8 +30,23 @@ nav {
     left: 0;
 }
 
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-small {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-big {
+    margin: 10px;
+    width: 200px;
+}
+
 .main-content {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .main-hr {
@@ -43,18 +57,79 @@ nav {
     margin-right: auto;
 }
 
-
-footer {
-    height: 50px;
-    background-color: green;
-}
-
 #frontpage, #my-intro, #skills, #project, #contact {
     padding-top: 80px;
 }
 
-.section {
-    height: 400px;
+.section1 {
+    height: 32rem;
+    border: 1px solid green;
+    border-radius: 1cm;
+    background-color: rgba(245, 245, 237, 0.678);
+}
+
+.section2 {
+    margin-top: 100px;
+    height: 30rem;
+    border: 1px solid green;
+    border-radius: 1cm;
+    background-color: rgba(245, 245, 237, 0.678);
+}
+
+.section3 {
+    height: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid green;
+    background-color: rgba(245, 245, 237, 0.678); */
+}
+
+.section4 {
+    height: 100rem;
     border: 1px solid green;
     background-color: rgba(245, 245, 237, 0.678);
 }
+
+.box {
+    background-color: rgba(245, 245, 237, 0.678);
+    border: 1px solid green;
+    border-radius: 1cm;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact {
+    padding-top: 30px;
+}
+
+.contact-section {
+    height: 11rem;
+    border: 1px solid green;
+    border-radius: 1cm;
+    background-color: rgba(245, 245, 237, 0.678);
+}
+
+.contact-title {
+    position: relative;
+    margin-left: 2%;
+}
+
+.inline {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 30px;
+    text-align: center;
+}
+
+.absolute-text {
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+
+footer {
+    height: 50px;
+    background-color: #26a030;
+    margin-top: 10px;
+}
+
