@@ -30,106 +30,230 @@ nav {
     left: 0;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
+/* 540px 보다 작을 때 */
+@media (max-width: 540px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    .text-size-1 {
+        font-size: 20px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .icon-small {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .icon-big {
+        margin: 10px;
+        width: 200px;
+    }
+    
+    .main-content {
+        margin-top: 5rem;
+    }
+    
+    .main-hr {
+        width: 50px;
+        border: 3px solid green;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #frontpage, #my-intro, #skills, #project, #contact {
+        padding-top: 80px;
+    }
+    
+    .section1 {
+        height: 40rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
+    
+    .section2 {
+        margin-top: 100px;
+        height: 30rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
+    
+    .section3 {
+        height: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* border: 1px solid green;
+        background-color: rgba(245, 245, 237, 0.678); */
+    }
+    
+    .section4 {
+        height: 150rem;
+        border: 1px solid green;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
+    
+    .box {
+        background-color: rgba(245, 245, 237, 0.678);
+        border: 1px solid green;
+        border-radius: 1cm;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #contact {
+        padding-top: 30px;
+    }
+    
+    .contact-section {
+        height: 11rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
+    
+    .contact-title {
+        position: relative;
+        margin-left: 2%;
+    }
+    
+    .inline {
+        display: inline-block;
+        margin-bottom: 0;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .absolute-text {
+        position: absolute;
+        top: 0;
+        left: 8%;
+    }
+    
+    footer {
+        height: 50px;
+        background-color: #26a030;
+        margin-top: 10px;
+    }
+        
 }
 
-.icon-small {
-    width: 20px;
-    height: 20px;
-}
+@media (min-width: 540px) {
+    h2 {
+        font-size: 40px;
+    }
+    
+    .text-size-1 {
+        font-size: 27px;
+    }
 
-.icon-big {
-    margin: 10px;
-    width: 200px;
-}
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
 
-.main-content {
-    margin-top: 5rem;
-}
+    .icon-small {
+        width: 20px;
+        height: 20px;
+    }
 
-.main-hr {
-    width: 50px;
-    border: 3px solid green;
-    opacity: 1;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .icon-big {
+        margin: 10px;
+        width: 200px;
+    }
 
-#frontpage, #my-intro, #skills, #project, #contact {
-    padding-top: 80px;
-}
+    .main-content {
+        margin-top: 5rem;
+    }
 
-.section1 {
-    height: 32rem;
-    border: 1px solid green;
-    border-radius: 1cm;
-    background-color: rgba(245, 245, 237, 0.678);
-}
+    .main-hr {
+        width: 50px;
+        border: 3px solid green;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.section2 {
-    margin-top: 100px;
-    height: 30rem;
-    border: 1px solid green;
-    border-radius: 1cm;
-    background-color: rgba(245, 245, 237, 0.678);
-}
+    #frontpage, #my-intro, #skills, #project, #contact {
+        padding-top: 80px;
+    }
 
-.section3 {
-    height: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
-    /* border: 1px solid green;
-    background-color: rgba(245, 245, 237, 0.678); */
-}
+    .section1 {
+        height: 35rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
 
-.section4 {
-    height: 100rem;
-    border: 1px solid green;
-    background-color: rgba(245, 245, 237, 0.678);
-}
+    .section2 {
+        margin-top: 100px;
+        height: 30rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
 
-.box {
-    background-color: rgba(245, 245, 237, 0.678);
-    border: 1px solid green;
-    border-radius: 1cm;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .section3 {
+        height: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* border: 1px solid green;
+        background-color: rgba(245, 245, 237, 0.678); */
+    }
 
-#contact {
-    padding-top: 30px;
-}
+    .section4 {
+        height: 100rem;
+        border: 1px solid green;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
 
-.contact-section {
-    height: 11rem;
-    border: 1px solid green;
-    border-radius: 1cm;
-    background-color: rgba(245, 245, 237, 0.678);
-}
+    .box {
+        background-color: rgba(245, 245, 237, 0.678);
+        border: 1px solid green;
+        border-radius: 1cm;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.contact-title {
-    position: relative;
-    margin-left: 2%;
-}
+    #contact {
+        padding-top: 30px;
+    }
 
-.inline {
-    display: inline-block;
-    margin-bottom: 0;
-    height: 30px;
-    text-align: center;
-}
+    .contact-section {
+        height: 11rem;
+        border: 1px solid green;
+        border-radius: 1cm;
+        background-color: rgba(245, 245, 237, 0.678);
+    }
 
-.absolute-text {
-    position: absolute;
-    top: 0;
-    left: 5%;
-}
+    .contact-title {
+        position: relative;
+        margin-left: 2%;
+    }
 
-footer {
-    height: 50px;
-    background-color: #26a030;
-    margin-top: 10px;
-}
+    .inline {
+        display: inline-block;
+        margin-bottom: 0;
+        height: 30px;
+        text-align: center;
+    }
 
+    .absolute-text {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+
+    footer {
+        height: 50px;
+        background-color: #26a030;
+        margin-top: 10px;
+    }
+}
